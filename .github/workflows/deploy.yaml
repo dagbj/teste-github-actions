@@ -48,3 +48,11 @@ jobs:
           mvn --batch-mode release:prepare release:perform \
             -DreleaseVersion=${{ inputs.release_version }} \
             -DdevelopmentVersion=${{ inputs.next_snapshot }}
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v${{ inputs.release_version }}" \
+            --title "Release ${{ inputs.release_version }}" \
+            --generate-notes
