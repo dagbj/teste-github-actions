@@ -1,0 +1,27 @@
+changelog:
+  categories:
+    - title: "🚀 New features"
+      labels:
+        - enhancement
+        - feature
+
+    - title: "🐛 Bug fixes"
+      labels:
+        - bug
+
+    - title: "📦 Dependencies"
+      labels:
+        - dependencies
+
+    - title: "🧰 Maintenance"
+      labels:
+        - maintenance
+        - refactoring
+
+    - title: "Other changes"
+      labels:
+        - "*"
+
+  exclude:
+    labels:
+      - skip-changelog
