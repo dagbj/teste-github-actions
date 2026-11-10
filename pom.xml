@@ -21,10 +21,10 @@
 		<developer/>
 	</developers>
 	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
+		<connection>scm:git:https://github.com/dagbj/teste-github-actions.git</connection>
+		<developerConnection>scm:git:https://github.com/dagbj/teste-github-actions.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/dagbj/teste-github-actions</url>
 	</scm>
 	<properties>
 		<java.version>21</java.version>
