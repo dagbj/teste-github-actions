@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.jodalin</groupId>
 	<artifactId>teste-github-actions</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name />
 	<description />
 	<url />
@@ -22,7 +22,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/dagbj/teste-github-actions.git</connection>
 		<developerConnection>scm:git:https://github.com/dagbj/teste-github-actions.git</developerConnection>
-		<tag>teste-github-actions-0.0.1</tag>
+		<tag>HEAD</tag>
 		<url>https://github.com/dagbj/teste-github-actions</url>
 	</scm>
 	<properties>
